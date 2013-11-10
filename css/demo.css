@@ -1,0 +1,147 @@
+@import url('reset.css');
+/* General Demo Style */
+section{	
+height:6.3in;
+}
+div{
+	display: block;
+}
+#menu{
+	position: relative;
+	background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    background-size: auto, cover;
+	color: #fff;
+	font-family: 'Josefin Slab', Arial, sans-serif;
+	font-size: 13px;
+}
+#CodingProjects{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #5a5a5a;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.headings{
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+	margin-bottom: 10px;
+	font-size: 50px;
+	padding-top:.7in;
+}
+.container{
+	position:relative;
+}
+.columns{
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 33.33333333333333%;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+}
+.content{
+	position:relative;
+    width:580px;
+    margin: 0 auto;
+}
+.bottomButton{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	display:block;
+	width:100%;
+	height:40px;
+	text-align:center;
+}
+h1{
+	margin:0px;
+	padding:20px;
+	font-size:42px;
+	text-align:left;
+	font-weight:400;
+    text-align:left;
+}
+h1 span{
+	font-size:22px;
+	color:#ddd;
+	padding-top:10px;
+}
+h2{
+	font-size: 30px;
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: normal;
+}
+.content{
+	margin: 0 20px;
+}
+.bmenu{
+    padding: 0px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.bmenu li{
+    font-size: 50px;
+    display: block;
+}
+.bmenu li a{
+	white-space: nowrap;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(71,80,23,0.3);
+	color: #fff;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(255,255,255,0.2);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.bmenu li:first-child a{
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+.bmenu li:last-child a{
+	-webkit-border-radius: 0px 0px 15px 15px;
+	-moz-border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 15px 15px;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #fff;
+	color: transparent;
+}
+.bmenu li a:hover{
+	background: transparent;
+	text-shadow: 1px 1px 10px rgba(71,80,23,0.6);
+	color: #fff;
+	font-weight: bold;
+}
