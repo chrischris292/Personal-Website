@@ -4,8 +4,11 @@ div{
 
 }
 body{
-	background: url(../images/gradient_white.png);
-background-size: 20px 100%;
+	/*background: url(../images/gradient_white.png);
+background-size: 20px 100%; */
+	background: url(/v/iphone-5s/a/images/texture_50_2x.png), url(http://images.apple.com/v/iphone-5s/a/images/gradient_gold.png);
+background-size: 80px,20px 100%;
+
 }
 #menu{
 	position: relative;
@@ -94,7 +97,7 @@ font-size: 15.75px;
 font-weight: 300;
 line-height: 1.25;
 padding-right: 13px;
-border-right: 5px solid #eeeeee;
+border-right: 2px solid #D7D7D7;
 border-left: 0;
 display: block;
 color: #777777;
@@ -152,7 +155,7 @@ font-size: 11px;
 	font-size: 16px;
 	line-height: 1.428571429;
 	color: #777777;
-	width:47%;
+	width:66%;
 	float: left;
 }
 .descriptionTitle{
@@ -172,9 +175,15 @@ width:47%;
 float:left;
 }
 #worksheader{
-border-bottom: 1px solid #eeeeee;
+border-bottom: 1px solid #FFF;
 font-size:4em;
 font-weight:900;
+}
+#footer{
+border-top: 1px solid #eeeeee;
+font-size:4em;
+font-weight:900;
+}
 }
 .span5{
 	width:380px;
@@ -183,7 +192,7 @@ min-height: 1px;
 margin-left: 20px;
 }
 #aboutMeHeader{
-border-bottom: 1px solid #eeeeee;
+border-bottom: 1px solid #FFF;
 font-size:4em;
 font-weight:900;
 }
@@ -198,10 +207,10 @@ font-weight:900;
 
 }
 .logo{
-	width: 250px;
+	width: 125px;
 	float:right;
 	border-radius:50%;
-	height: 250px;
+	height: 125px;
 }
 .content{
 	margin: 0 20px;
