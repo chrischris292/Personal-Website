@@ -1,10 +1,11 @@
-@import url('reset.css');
-/* General Demo Style */
-section{	
-height:6.3in;
-}
+
 div{
 	display: block;
+
+}
+body{
+	background: url(../images/gradient_white.png);
+background-size: 20px 100%;
 }
 #menu{
 	position: relative;
@@ -22,13 +23,13 @@ div{
 }
 #CodingProjects{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
 	line-height: 1.428571429;
 	color: #5a5a5a;
 }
-.img-circle{
-	border-radius: 50%;
+#mainmenu{
+	padding-top:20px;
 }
+
 .headings{
 	font-weight: 300;
 	line-height: 1;
@@ -40,22 +41,11 @@ div{
 .container{
 	position:relative;
 }
-.columns{
-	padding-top: 20px;
-	text-align: center;
-	margin-bottom: 20px;
-	width: 33.33333333333333%;
-	position: relative;
-	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
-	box-sizing: border-box;
-	display: block;
-	float: left;
-}
+
 a{
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .clr{
 	clear: both;
@@ -64,6 +54,7 @@ a{
 	position:relative;
     width:580px;
     margin: 0 auto;
+    padding-top:20px;
 }
 .bottomButton{
 	position:absolute;
@@ -75,7 +66,7 @@ a{
 	height:40px;
 	text-align:center;
 }
-h1{
+#Name{
 	margin:0px;
 	padding:20px;
 	font-size:42px;
@@ -83,19 +74,132 @@ h1{
 	font-weight:400;
     text-align:left;
 }
-h1 span{
+
+#Major{
 	font-size:22px;
 	color:#ddd;
 	padding-top:10px;
 }
-h2{
-	font-size: 30px;
-	display: block;
-	-webkit-margin-before: 0.83em;
-	-webkit-margin-after: 0.83em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	font-weight: normal;
+#SubName{
+	font-size: 39px;
+}
+.aboutMeSubHeading{
+font-weight: 700;
+line-height: 1.1;
+color: #999999;
+font-size: 20px;
+}
+blockQuote{
+font-size: 15.75px;
+font-weight: 300;
+line-height: 1.25;
+padding-right: 13px;
+border-right: 5px solid #eeeeee;
+border-left: 0;
+display: block;
+color: #777777;
+width: 40%;
+}
+
+.fixednav{
+position:fixed;
+top:0;
+left:0;
+right:0;
+padding: 10px 0;
+width:100%;
+height: 35px;
+z-index: 9999;
+background-color: rgba(255, 255, 255, 0.8);
+color: rgba(1, 1, 1, 0.8);
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #020103;
+}
+.navLinks{
+display: table;
+content: "";
+line-height: 0;
+clear:both;
+margin: 3px auto; 
+margin: 3px auto;
+list-style: none;
+}
+.navLinksList{
+	float:left;
+	line-height:20px;
+	padding-left:40px;
+	font-size:20px;
+}
+blockQuoteSource{
+display: block;
+line-height: 1.428571429;
+color: #999999;
+font-size: 11px;
+}
+.pullRight{
+	float:right;
+}
+.aboutMe{
+	padding-top:4px;
+	font-size: 20px;
+	line-height: 1.428571429;
+	color: #777777;
+}
+.descriptionText{
+	padding-top:4px;
+	font-size: 16px;
+	line-height: 1.428571429;
+	color: #777777;
+	width:47%;
+	float: left;
+}
+.descriptionTitle{
+font-weight: 700;
+line-height: 1.1;
+color: #999999;
+font-size: 20px;
+width:47%;
+}
+.projectTitle{
+color: #2d6987;
+font-weight: 700;
+line-height: 1.1;
+color: #2d6987;
+font-size: 32px;
+width:47%;
+float:left;
+}
+#worksheader{
+border-bottom: 1px solid #eeeeee;
+font-size:4em;
+font-weight:900;
+}
+.span5{
+	width:380px;
+	float: left;
+min-height: 1px;
+margin-left: 20px;
+}
+#aboutMeHeader{
+border-bottom: 1px solid #eeeeee;
+font-size:4em;
+font-weight:900;
+}
+.level{
+	font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+	padding-left:1in;
+	width:80%;
+	float: left;
+	min-height: 1px;
+	margin-left: 20px;
+	padding-top:.5in;
+
+}
+.logo{
+	width: 300px;
+	float:right;
 }
 .content{
 	margin: 0 20px;
@@ -108,6 +212,10 @@ h2{
 .bmenu li{
     font-size: 50px;
     display: block;
+}
+.project{
+	display:inline-block;
+	padding-top:10px;
 }
 .bmenu li a{
 	white-space: nowrap;
