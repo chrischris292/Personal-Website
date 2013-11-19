@@ -306,8 +306,8 @@ text-align:center;
 .fa:hover {
 	color: #f06060
 }
-a::before,
-a::after {
+ .menulinks::before,
+ .menulinks::after {
 	display: inline-block;
 	opacity: 0;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
@@ -315,7 +315,7 @@ a::after {
 	transition: transform 0.3s, opacity 0.2s;
 }
 
-a::before {
+ .menulinks::before {
 	margin-right: 10px;
 	content: '[';
 	-webkit-transform: translateX(20px);
@@ -323,7 +323,7 @@ a::before {
 	transform: translateX(20px);
 }
 
-a::after {
+ .menulinks::after {
 	margin-left: 10px;
 	content: ']';
 	-webkit-transform: translateX(-20px);
@@ -331,10 +331,10 @@ a::after {
 	transform: translateX(-20px);
 }
 
-a:hover::before,
-a:hover::after,
-a:focus::before,
-a:focus::after {
+.menulinks:hover::before,
+.menulinks:hover::after,
+.menulinks:focus::before,
+.menulinks:focus::after {
 	opacity: 1;
 	-webkit-transform: translateX(0px);
 	-moz-transform: translateX(0px);
