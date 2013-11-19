@@ -136,6 +136,7 @@ a{
 	text-decoration: none;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .clr{
 	clear: both;
 }
@@ -413,3 +414,8 @@ box-sizing:border-box;
 colored{
 	color: rgb(230, 69, 64);
 }
+colored:hover{
+	
+	 color: rgb(255, 11, 3);
+}
+
