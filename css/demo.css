@@ -131,9 +131,7 @@ img:hover{
 }
 
 a{
-	color: #000000;
 	text-decoration: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .clr{
@@ -298,11 +296,10 @@ text-align:center;
 }
 .level{
 	font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
-	padding-left:1in;
 	width:80%;
 	float: left;
 	min-height: 1px;
-	margin-left: 20px;
+	margin-left: 10%;
 	padding-top:.3in;
 	padding-bottom:.2in;
 }
@@ -314,6 +311,10 @@ text-align:center;
 }
 .fa:hover {
 	color: #f06060
+}
+.menulinks{
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
  .menulinks::before,
  .menulinks::after {
@@ -384,7 +385,7 @@ box-sizing:border-box;
 .project{
 	display:inline-block;
 	padding-top:18px;
-	width:953px;
+	width:100%;
 }
 /*Animations*/
 .bmenu li a{
