@@ -177,7 +177,7 @@ font-weight: 100;
 color: #23b881;
 line-height: 1;
 letter-spacing: -.05em;
-background-image: -webkit-linear-gradient(92deg, #FA93FF, #031CFF);
+background-image: -webkit-linear-gradient(92deg, #FF0303, #030303);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -573,7 +573,7 @@ a{
 	-o-animation-name: bounceInDown;
 	animation-name: bounceInDown;
 }
-
+/*Fade Body in */
 body{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes fadeIn {
 	0% {opacity: 0;}	100% {opacity: 1;}
 }
@@ -599,4 +599,5 @@ body {
 	-o-animation-name: fadeIn;
 	animation-name: fadeIn;
 }
+
 
