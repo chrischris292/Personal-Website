@@ -81,6 +81,10 @@ a, a:visited {
 .contactIcons:hover{
     color: #B603FF;
 }
+.contactIcons{
+    color:#8e44ad;
+    font-size:50px;
+}
 .middle {margin: 0 auto;}
 
 #moi {
@@ -97,7 +101,10 @@ a, a:visited {
     margin-top: -10px; 
     font-size:13px;
 }
-#links { margin-top: 20px; }
+#links { 
+    margin-top: 20px;
+    font-size:200px;
+}
 /* --------------------------------------------------------------
 --- Typography
 -------------------------------------------------------------- */
