@@ -360,9 +360,9 @@ width: 60%;
 
 }
 .img-circle{
-width:35%;
-border-radius: 1000px;
--webkit-border-radius: 1000px;
+width:40%;
+border-radius: 200px;
+-webkit-border-radius: 500px;
 -moz-border-radius: 1000px;
 margin-bottom:15px;
 }
