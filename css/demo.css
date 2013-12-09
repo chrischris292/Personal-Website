@@ -12,6 +12,7 @@ body{
 margin-right:0px;
 margin-bottom:0px;
 margin-top:0px;
+min-width: 1148px;
 }
 h1{
 color: rgb(255, 255, 255);
@@ -423,6 +424,7 @@ margin-right:0px;
 }
 
 .fixednav{
+min-width: 1148px;
 position:fixed;
 top:0;
 left:0;
