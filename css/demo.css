@@ -4,8 +4,8 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day);
-@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300);
 
 body{
 	margin-left:0px;
@@ -17,8 +17,8 @@ min-width: 1148px;
 h1{
 color: rgb(255, 255, 255);
 display: block;
-font-family: 'Julius Sans One', sans-serif;
-font-size: 46px;
+font-family: 'Quicksand', sans-serif;
+font-size: 30px;
 font-style: normal;
 font-weight: 300;
 height: 64px;
@@ -46,8 +46,8 @@ border-top-style: none;
 border-top-width: 0px;
 color: rgb(255, 255, 255);
 display: inline;
-font-family: 'Dawning of a New Day', cursive;
-font-size: 60px;
+font-family: 'Pacifico', cursive;
+font-size: 50px;
 font-weight: normal;
 height: auto;
 line-height: 22px;
@@ -124,7 +124,7 @@ margin-bottom: 10px;
 text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 text-transform: uppercase;
 width: 100%;
-padding-bottom:30px;
+padding-bottom:20px;
 }
 .subTitle{
 color: rgb(122, 143, 163);
@@ -183,7 +183,7 @@ zoom: 1;
 	line-height:21px;
 }
 .white{
-	top: -5px;
+	top: -16px;
 	color: rgb(255, 255, 255);
 }
 .dark{
@@ -207,9 +207,12 @@ list-style-type: none;
 text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 width: 500px;
 }
+.projectTitleLink{
+	color: rgb(102, 119, 136);
+}
 .projectSubTitle{
 padding-top:3px;
-padding-bottom:5px;
+padding-bottom:15px;
 color: #9b59b6;
 display: block;
 font-family: 'Open Sans', sans-serif;
@@ -346,12 +349,20 @@ position: relative;
 width: 60%;
 }
 .project-container{
-	padding-bottom:30px;
+	padding-bottom:60px;
+	padding-top:40px;
+}
+.title-project{
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+
 }
 .footer{
 	width:60%;
 	padding-left:20%;
 	font-family: 'Raleway', sans-serif;
+	padding-bottom:30px;
 }
 .greyBackground{
 	background: #eee;
@@ -524,10 +535,10 @@ line-height: 14px;
 list-style-image: none;
 list-style-position: outside;
 list-style-type: none;
-margin-bottom: 20px;
+margin-bottom: 30px;
 width:100%;
 zoom: 1;
-padding-top:20px
+padding-top:30px
 
 }
 .projectDescription{
